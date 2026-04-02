@@ -34,24 +34,27 @@ if [ ${#MOD_SUBDIRS[@]} -eq 0 ]; then
   exit 1
 fi
 
-# For each SUBDIR preserve top-level folder structure and copy only requested mod folders.
-for subdir in "${SUBDIR_LIST[@]}"; do
-  SRC_TOP="$BG3_DATA/$subdir"
-  DEST_TOP="$subdir"
+for modname in "${MOD_SUBDIRS[@]}"; do
+  mod_dest_root="$modname"
+  found_any=false
 
-  # Only create the top-level folder in repo if at least one requested mod exists there
-  mkdir -p "$DEST_TOP"
+  for subdir in "${SUBDIR_LIST[@]}"; do
+    src="$BG3_DATA/$subdir/$modname"
+    # destination is nested under the mod root, preserving subdir path
+    dest="$mod_dest_root/$subdir"
 
-  for modname in "${MOD_SUBDIRS[@]}"; do
-    SRC_PATH="$SRC_TOP/$modname"
-    DEST_PATH="$DEST_TOP/$modname"
-
-    if [ -d "$SRC_PATH" ]; then
-      # remove existing copy to ensure sync
-      rm -rf "$DEST_PATH"
-      cp -a "$SRC_PATH" "$DEST_TOP"
+    if [ -d "$src" ]; then
+      found_any=true
+      mkdir -p "$(dirname "$dest")"
+      rm -rf "$dest"
+      cp -a "$src" "$dest"
     fi
   done
+
+  if [ "$found_any" = false ]; then
+    echo "Warning: mod '$modname' not found in any SUBDIR_LIST locations."
+    rmdir --ignore-fail-on-non-empty "$mod_dest_root" 2>/dev/null || true
+  fi
 done
 
 git add --all
