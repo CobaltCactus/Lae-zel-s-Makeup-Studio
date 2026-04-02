@@ -1,16 +1,9 @@
 #!/bin/bash
-# backup.bash: pull all BG3 Mod Project files into a single place for source code management
-# by mstephenson6, see guide at https://mod.io/g/baldursgate3/r/git-backups-for-mod-projects
+# backup.bash: copy BG3 mod folders; if one mod then repo/<subdir>/..., else repo/<modname>/<subdir>/...
+# derived by TheCobaltCactus from original code by mstephenson6, see guide at https://mod.io/g/baldursgate3/r/git-backups-for-mod-projects
+set -e
 
-set -e;
-
-# TODO Set MOD_SUBDIR_NAME here, example:
-# MOD_SUBDIRS=(
-#   "CircleOfTheSpores_db7e15fd-b2fc-b159-4bbd-1baab34d8c3a"
-#   "LMS_Option_1_a5aa97a9-4359-bbc1-6a3f-7b4beb433fe9"
-# )
-# Look in "D:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data\"
-# for names of mods you have already started
+#TODO: Set list of mod folder(s) here
 MOD_SUBDIRS=(
 "LMS_Option_1_a5aa97a9-4359-bbc1-6a3f-7b4beb433fe9"
 "LMS_option_1_nocheeks_50499f90-acc6-4996-1f63-73392807fdca"
@@ -34,8 +27,10 @@ MOD_SUBDIRS=(
 "LMS_option_10_nocheeks_bf7d9fcf-7c04-693d-048c-0f0d9c08d493"
 )
 
-# This is the MinGW64 path to a Steam install of the toolkit
+#set this to your BG3/data folder path
 BG3_DATA="/d/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3/Data"
+# Looks in "D:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data\"
+# for names of mods in your mod_subdirs list
 
 # These are set according to "Understanding the Mod Locations", as of Nov 2024, from
 # https://mod.io/g/baldursgate3/r/getting-started-creating-a-new-mod
@@ -52,18 +47,28 @@ if [ ${#MOD_SUBDIRS[@]} -eq 0 ]; then
   exit 1
 fi
 
+single_mod=false
+if [ ${#MOD_SUBDIRS[@]} -eq 1 ]; then
+  single_mod=true
+  single_name="${MOD_SUBDIRS[0]}"
+fi
+
 for modname in "${MOD_SUBDIRS[@]}"; do
-  mod_dest_root="$modname"
   found_any=false
 
   for subdir in "${SUBDIR_LIST[@]}"; do
     src="$BG3_DATA/$subdir/$modname"
-    # destination is nested under the mod root, preserving subdir path
-    dest="$mod_dest_root/$subdir"
+
+    if [ "$single_mod" = true ]; then
+      dest="$subdir"                    # repo/<subdir>/...
+    else
+      dest="$modname/$subdir"           # repo/<modname>/<subdir>/...
+    fi
 
     if [ -d "$src" ]; then
       found_any=true
       mkdir -p "$(dirname "$dest")"
+      # remove existing destination to ensure sync
       rm -rf "$dest"
       cp -a "$src" "$dest"
     fi
@@ -71,7 +76,11 @@ for modname in "${MOD_SUBDIRS[@]}"; do
 
   if [ "$found_any" = false ]; then
     echo "Warning: mod '$modname' not found in any SUBDIR_LIST locations."
-    rmdir --ignore-fail-on-non-empty "$mod_dest_root" 2>/dev/null || true
+    if [ "$single_mod" = true ]; then
+      rmdir --ignore-fail-on-non-empty "$single_name" 2>/dev/null || true
+    else
+      rmdir --ignore-fail-on-non-empty "$modname" 2>/dev/null || true
+    fi
   fi
 done
 
