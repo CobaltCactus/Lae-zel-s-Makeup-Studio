@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Conflicts">
+                    <children>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_9_nocheeks_991bbe96-f067-a653-c638-6d100add74ac"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Kabuki (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907320"/>
+                            <attribute id="UUID" type="guid" value="991bbe96-f067-a653-c638-6d100add74ac"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_7_c01de848-77a7-8d0b-dcad-e95358a15a73"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Laezel&apos;s Makeup Studio: Smoky Eyes"/>
+                            <attribute id="PublishHandle" type="uint64" value="4329192"/>
+                            <attribute id="UUID" type="guid" value="c01de848-77a7-8d0b-dcad-e95358a15a73"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_7_nocheeks_00e11ce8-1a4f-4e85-cd1c-e6a27c54956d"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Laezel&apos;s Makeup Studio: Smoky Eyes (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="4329385"/>
+                            <attribute id="UUID" type="guid" value="00e11ce8-1a4f-4e85-cd1c-e6a27c54956d"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_1_nocheeks_50499f90-acc6-4996-1f63-73392807fdca"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Laezel&apos;s Makeup Studio: Cat&apos;s Eyes (no cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="4329127"/>
+                            <attribute id="UUID" type="guid" value="50499f90-acc6-4996-1f63-73392807fdca"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_Option_1_a5aa97a9-4359-bbc1-6a3f-7b4beb433fe9"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Laezel&apos;s Makeup Studio: Cat&apos;s Eyes"/>
+                            <attribute id="PublishHandle" type="uint64" value="4329099"/>
+                            <attribute id="UUID" type="guid" value="a5aa97a9-4359-bbc1-6a3f-7b4beb433fe9"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_6_noforehead_6ca55823-649e-e637-10ed-e4b069cd2892"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Zealot (No Forehead)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907257"/>
+                            <attribute id="UUID" type="guid" value="6ca55823-649e-e637-10ed-e4b069cd2892"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_6_039c586f-a236-d03c-dcd0-cd0ae42cc726"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Zealot"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907249"/>
+                            <attribute id="UUID" type="guid" value="039c586f-a236-d03c-dcd0-cd0ae42cc726"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="karlach_makeup_remover_8a851c90-80a1-aefe-fa57-4df262789c6c"/>
+                            <attribute id="MD5" type="LSString" value="37b96058984e75d6245aa0182223c669"/>
+                            <attribute id="Name" type="LSString" value="Karlach&apos;s Makeup Remover"/>
+                            <attribute id="PublishHandle" type="uint64" value="4323047"/>
+                            <attribute id="UUID" type="guid" value="8a851c90-80a1-aefe-fa57-4df262789c6c"/>
+                            <attribute id="Version64" type="int64" value="36028797018963972"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="laezel_makeup_remover_a66803ae-e943-93ee-7ed7-eef756e13614"/>
+                            <attribute id="MD5" type="LSString" value="b5f9540722bdc1e9c5421548caa3d2b3"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Remover"/>
+                            <attribute id="PublishHandle" type="uint64" value="4321586"/>
+                            <attribute id="UUID" type="guid" value="a66803ae-e943-93ee-7ed7-eef756e13614"/>
+                            <attribute id="Version64" type="int64" value="36028797018963972"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_4_160b5ade-ef92-7454-b329-e32cf286cea2"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Eyeliner"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907221"/>
+                            <attribute id="UUID" type="guid" value="160b5ade-ef92-7454-b329-e32cf286cea2"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_4_nocheeks_816ad0cf-0e8c-e75d-4eeb-84e81b295c85"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Eyeliner (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907227"/>
+                            <attribute id="UUID" type="guid" value="816ad0cf-0e8c-e75d-4eeb-84e81b295c85"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_10_nocheeks_bf7d9fcf-7c04-693d-048c-0f0d9c08d493"/>
+                            <attribute id="MD5" type="LSString" value=""/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Gish (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="0"/>
+                            <attribute id="UUID" type="guid" value="bf7d9fcf-7c04-693d-048c-0f0d9c08d493"/>
+                            <attribute id="Version64" type="int64" value="36028797018963968"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_9_965e36c2-8bcd-b2f7-e397-2e7ae94d1d8e"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Kabuki"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907287"/>
+                            <attribute id="UUID" type="guid" value="965e36c2-8bcd-b2f7-e397-2e7ae94d1d8e"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_2_bd288a42-f9ee-637c-f968-c696f878fff7"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Minimalist"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907191"/>
+                            <attribute id="UUID" type="guid" value="bd288a42-f9ee-637c-f968-c696f878fff7"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_2_nocheeks_a801e598-76d1-7a52-3b48-b9109c383b63"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Minimalist (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907197"/>
+                            <attribute id="UUID" type="guid" value="a801e598-76d1-7a52-3b48-b9109c383b63"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_3_d26e8065-8f7e-586f-614f-ce5875c6a582"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Shadowed"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907207"/>
+                            <attribute id="UUID" type="guid" value="d26e8065-8f7e-586f-614f-ce5875c6a582"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_3_nocheeks_d202dfd5-d729-b774-f746-3614835157fc"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Shadowed (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907212"/>
+                            <attribute id="UUID" type="guid" value="d202dfd5-d729-b774-f746-3614835157fc"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_8_bd4d4f4e-ad86-735d-88f5-bc75a53046c3"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Starburst"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907274"/>
+                            <attribute id="UUID" type="guid" value="bd4d4f4e-ad86-735d-88f5-bc75a53046c3"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_8_nocheeks_b2015a70-195e-d2a3-a6a6-334e9d5f08f9"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Starburst (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907280"/>
+                            <attribute id="UUID" type="guid" value="b2015a70-195e-d2a3-a6a6-334e9d5f08f9"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_5_23d7d28a-4ee9-0b6c-70f1-f7cfec7a4797"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Woe"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907231"/>
+                            <attribute id="UUID" type="guid" value="23d7d28a-4ee9-0b6c-70f1-f7cfec7a4797"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="LMS_option_5_nocheeks_ffe5d9db-8e0b-0bb8-8b86-c663c600ba24"/>
+                            <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                            <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Woe (No Cheeks)"/>
+                            <attribute id="PublishHandle" type="uint64" value="5907233"/>
+                            <attribute id="UUID" type="guid" value="ffe5d9db-8e0b-0bb8-8b86-c663c600ba24"/>
+                            <attribute id="Version64" type="int64" value="36451011631513600"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Dependencies">
+                    <children>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="GustavX"/>
+                            <attribute id="MD5" type="LSString" value="ef3fcba3f3684b3088ad1f9874d4957c"/>
+                            <attribute id="Name" type="LSString" value="GustavX"/>
+                            <attribute id="PublishHandle" type="uint64" value="0"/>
+                            <attribute id="UUID" type="guid" value="cb555efe-2d9e-131f-8195-a89329d218ea"/>
+                            <attribute id="Version64" type="int64" value="145241946983300916"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ModuleInfo">
+                    <attribute id="Author" type="LSString" value="CobaltCactus"/>
+                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                    <attribute id="Description" type="LSString" value="Lae&apos;zel makeup replacer setting from my original Lae&apos;zel&apos;s Makeup Studio Nexus mod. You can only use one LMS mod at a time. They will override each other."/>
+                    <attribute id="FileSize" type="uint64" value="0"/>
+                    <attribute id="Folder" type="LSString" value="LMS_option_10_8d1b9261-021b-52e7-29c4-6c08f01c8d23"/>
+                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                    <attribute id="MD5" type="LSString" value="c0a8f3412870277331306e0719fc6f77"/>
+                    <attribute id="MenuLevelName" type="FixedString" value=""/>
+                    <attribute id="Name" type="LSString" value="Lae&apos;zel&apos;s Makeup Studio: Gish"/>
+                    <attribute id="NumPlayers" type="uint8" value="4"/>
+                    <attribute id="PhotoBooth" type="FixedString" value=""/>
+                    <attribute id="PublishHandle" type="uint64" value="5907328"/>
+                    <attribute id="StartupLevelName" type="FixedString" value=""/>
+                    <attribute id="UUID" type="FixedString" value="8d1b9261-021b-52e7-29c4-6c08f01c8d23"/>
+                    <attribute id="Version64" type="int64" value="36451011631513600"/>
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version64" type="int64" value="144255927718626661"/>
+                        </node>
+                        <node id="Scripts">
+                            <children>
+                                <node id="Script">
+                                    <attribute id="UUID" type="FixedString" value="1953f77d-a201-45d7-a194-9b84c34b8461"/>
+                                    <children>
+                                        <node id="Parameters">
+                                            <children>
+                                                <node id="Parameter">
+                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
+                                                    <attribute id="Type" type="int32" value="1"/>
+                                                    <attribute id="Value" type="LSString" value="0"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                                <node id="Script">
+                                    <attribute id="UUID" type="FixedString" value="0d6510f5-50a3-4ecd-83d8-134c9a640324"/>
+                                    <children>
+                                        <node id="Parameters">
+                                            <children>
+                                                <node id="Parameter">
+                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
+                                                    <attribute id="Type" type="int32" value="1"/>
+                                                    <attribute id="Value" type="LSString" value="0"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
